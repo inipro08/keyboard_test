@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    tools:ignore="RtlHardcoded,RtlSymmetry">
+
+    <com.inis.keyboard_test.KeyboardView
+        android:id="@+id/keyboard_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:keyBackground="@drawable/key_selector"
+        android:keyTextSize="30sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+
+</FrameLayout>
